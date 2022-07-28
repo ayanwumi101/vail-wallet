@@ -1,0 +1,45 @@
+.navbar_container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding-bottom: 8px;
+    font-size: 14.5px;
+    flex-wrap: wrap;
+}
+
+.thin_line{
+    border-bottom: 1px solid lightgrey;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.sign_in{
+    background-color: #ededed;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.start{
+    background-color: orangered;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+}

@@ -1,0 +1,38 @@
+.container{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 35px auto;
+    justify-content: space-around;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.about_text{
+    max-width: 400px;
+}
+
+.heading{
+    margin-bottom: 18px;
+}
+
+.row{
+    margin-bottom: 30px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.about_image{
+    max-width: 450px;
+}
+
+.about_img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 15px;
+    }
+}

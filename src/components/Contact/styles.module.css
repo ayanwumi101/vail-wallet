@@ -1,0 +1,64 @@
+.container{
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin: 35px auto;
+    justify-content: space-around;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.contact_form{
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+.form_control{
+    width: 100%;
+    margin: 11px auto;
+}
+
+.split{
+    display: flex;
+    width: 100%;
+    gap: 12px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.contact_image{
+    max-width: 400px;
+}
+
+.contact_img{
+    width: 100%;
+    margin: 12px 0;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+
+.submit{
+    background: transparent;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.submit:hover{
+    background-color: rgba(255, 68, 0, 0.619);
+}
+
+label{
+    font-size: 14px;
+}

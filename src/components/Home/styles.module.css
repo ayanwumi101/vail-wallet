@@ -1,0 +1,124 @@
+.home_container{
+    width: 95%;
+    margin: auto;
+}
+
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.section_text{
+    max-width: 460px;
+    height: auto;
+}
+
+.section_text p{
+    margin: 10px 0;
+}
+
+.section_text .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.section_text .buttons button{
+    background: transparent;
+    background-color: #ededed;
+    border: none;
+    padding: 10px;
+}
+
+.second_section{
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.section_image{
+    width: 360px;
+}
+
+.section_image img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.third_section{
+    margin: 40px auto;
+}
+
+.heading{
+    text-align: center;
+    margin: 12px 0;
+    letter-spacing: 2px;
+}
+
+.check_icon{
+    background-color: orangered;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* max-width: 900px; */
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.column{
+    margin-bottom: 20px;
+}
+
+.feature{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;   
+}
+
+.text{
+    margin: 25px 0;
+    text-align: justify;
+}
+
+.app_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.learn{
+    background-color: black;
+    padding: 12px;
+    color: white;
+    width: 48%;
+    border-radius: 3px;
+}
+
+.create_account{
+    background-color: orangered;
+    padding: 12px;
+    color: white;
+    width: 48%;
+    border-radius: 3px;
+}
