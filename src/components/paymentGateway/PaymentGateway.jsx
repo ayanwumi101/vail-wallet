@@ -26,7 +26,7 @@ const PaymentGateway = () => {
 
             <Fade right>
                 <div className={styles.section_image}>
-                    <img src={image} alt="vail wallet image" />
+                    <img src={image} alt="vail wallet" />
                 </div>
             </Fade>
         </div>
@@ -68,7 +68,7 @@ const PaymentGateway = () => {
 
             <Fade right>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet image" />
+                <img src={image} alt="vail wallet logo" />
             </div>
             </Fade>
         </div>
@@ -112,7 +112,7 @@ const PaymentGateway = () => {
         <div className={styles.first_section}>
             <Fade left>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet image" />
+                <img src={image} alt="vail wallet" />
             </div>
             </Fade>
             
