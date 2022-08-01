@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         
           
-          <div className={styles.second_section}>
+        <div className={styles.second_section}>
               <Fade right>
               <div className={styles.heading}>
                 <h2>Vail Wallet</h2>
