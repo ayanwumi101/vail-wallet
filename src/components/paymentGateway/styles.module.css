@@ -1,0 +1,154 @@
+.container{
+    max-width: 100%;
+    margin: 25px auto;
+    font-size: 14px;
+}
+
+.first_section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.section_text{
+    max-width: 470px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.heading{
+    margin-bottom: 16px;
+}
+
+.section_image{
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+.section_image img{
+    width: 100%;
+}
+
+.app_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.learn{
+    background-color: black;
+    padding: 12px;
+    color: white;
+    width: 48%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.learn button{
+    color: white;
+}
+
+.create_account{
+    background-color: orangered;
+    padding: 12px;
+    color: white;
+    width: 48%;
+    border-radius: 3px;
+}
+
+.testimony{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.heading h3{
+    color: green;
+}
+
+.row{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.reviews{
+    background-color: rgba(240, 102, 51, 0.39);
+    margin: 25px 0;
+    padding: 25px;
+}
+
+.reviews_container{
+    max-width: 650px;
+    margin: auto;
+    position: relative;
+    line-height: 30px;
+}
+
+.logo{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.comment{
+    text-align: center;
+    margin: 15px 0;
+    max-width: 450px;
+    margin: auto;
+}
+
+.user_details{
+    display: flex;
+    max-width: 250px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action_btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev_btn, .next_btn{
+    position: absolute;
+    top: 110px;
+}
+
+.prev_btn{
+    left: 0;
+}
+
+.next_btn{
+    right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .section_text{
+        padding: 0 18px;
+    }
+
+    .comment{
+        max-width: 300px;
+        text-align: justify;
+    }
+
+    .next_btn, .prev_btn{
+        position: absolutete;
+        top: 20px;
+    }
+}

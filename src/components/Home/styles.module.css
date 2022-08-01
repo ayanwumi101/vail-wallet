@@ -9,12 +9,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin: 40px 0;
+    margin: 15px 0;
 }
 
 .section_text{
     max-width: 460px;
     height: auto;
+    margin-bottom: 25px;
 }
 
 .section_text p{
@@ -44,6 +45,7 @@
 
 .section_image{
     width: 360px;
+    margin-bottom: 25px;
 }
 
 .section_image img{
@@ -113,6 +115,11 @@ button{
     color: white;
     width: 48%;
     border-radius: 3px;
+    text-align: center;
+}
+
+.learn button{
+    color: white;
 }
 
 .create_account{

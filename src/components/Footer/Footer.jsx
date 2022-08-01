@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './styles.module.css'
+import Fade from 'react-reveal/Fade'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer>
-      <div className={styles.footer_text}>
+      <Fade left>
+        <div className={styles.footer_text}>
         <div className="heading">
           <h2>Vail Wallet</h2>
         </div>
@@ -12,10 +15,12 @@ const Footer = () => {
         <div>
           <p>With Vail Wallet, setting feels like catching up. Sending and receiving payments with Vail Wallet feels cool and opening your business to the world makes you explore.</p>
         </div>
-      </div>
+        </div>
+      </Fade>
 
       <div className={styles.footer_links}>
 
+        <Fade right>
           <div className={styles.columns}>
             
             <div className={styles.link_list}>
@@ -53,16 +58,17 @@ const Footer = () => {
             <div className={styles.link_list}>
               <h4>Merchant</h4>
               <ul>
-                  <li>Payment Gateway</li>
-                  <li>Scan to pay</li>
+                  <Link to='/payment-gateway'><li>Payment Gateway</li></Link>
+                  <Link to='/scan-to-pay'><li>Scan to pay</li></Link>
                   <li>Compliance</li>
                   <li>Terms of use</li>
               </ul>
             </div>
             
           </div>
+        </Fade>
 
-        
+        <Fade right>
           <div className={styles.columns}>
             
             <div className={styles.link_list}>
@@ -89,7 +95,7 @@ const Footer = () => {
               <ul>
                   <li>Wallet address</li>
                   <li>Pay with crypto</li>
-                  <li>Scan to pay</li>
+                  <Link to='/scan-to-pay'><li>Scan to pay</li></Link>
               </ul>
             </div>
 
@@ -104,7 +110,7 @@ const Footer = () => {
             </div>
             
           </div>
-          
+        </Fade>
       </div>
 
 

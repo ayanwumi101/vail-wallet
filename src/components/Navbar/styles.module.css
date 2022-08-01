@@ -22,6 +22,10 @@ ul{
     list-style-type: none;
 }
 
+.bar{
+    display: none;
+}
+
 .navlinks{
     list-style-type: none;
     display: flex;
@@ -42,4 +46,17 @@ ul{
     color: white;
     padding: 8px 10px;
     border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .bar{
+        display: block;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .links{
+        display: none;
+    }
 }

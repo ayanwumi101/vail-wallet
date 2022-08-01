@@ -1,0 +1,52 @@
+.container{
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+.sub_heading{
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+.price_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.price_card{
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 18px;
+    line-height: 28px;
+    width: 480px;
+    margin-bottom: 25px;
+}
+
+.percentage{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0;
+    gap: 7px;
+}
+
+.percentage h3{
+    color: orangered;
+    font-size: 38px;
+    width: auto;
+    height: 36px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 12px;
+    }
+
+    .price_card{
+        padding: 10px;
+        line-height: 25px;
+    }
+}
