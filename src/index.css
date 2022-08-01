@@ -4,19 +4,15 @@
 }
 
 @font-face {
-  font-family: manrope-regular;
-  src: url('../Manrope/static/Manrope-Regular.ttf');
+  font-family: inter-bold;
+  src: url('../Inter/static/Inter-Bold.ttf');
 }
 
-@font-face {
-  font-family: manrope-bold;
-  src: url('../Manrope/static/Manrope-Bold.ttf');
-}
 
 h1, h2{
-  font-family: manrope-bold;
+  font-family: inter-bold;
   margin: 8px 0;
-}
+} 
 
 *{
   padding: 0;
