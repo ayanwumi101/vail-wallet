@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import image from '../../images/boy.png'
+import about from '../../images/about.png'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 
@@ -48,7 +48,7 @@ const About = () => {
 
       <Zoom>
         <div className={styles.about_image}>
-          <img src={image} alt="About us image" className={styles.about_img} />
+          <img src={about} alt="About us image" className={styles.about_img} />
         </div>
       </Zoom>
 

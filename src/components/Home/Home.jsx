@@ -2,7 +2,10 @@ import React from 'react'
 import styles from './styles.module.css'
 import { FaCheck } from 'react-icons/fa'
 import Fade from 'react-reveal/Fade'
-import image from '../../images/boy.png'
+import image from '../../images/system.png'
+import scan from '../../images/scan.png'
+import gateway from '../../images/gateway.png'
+import app from '../../images/app.png'
 import {Link} from 'react-router-dom'
 
 const Home = () => {
@@ -13,9 +16,8 @@ const Home = () => {
                 <div className={styles.section_text}>
                     <h1>Mobile and Online Payment Systems</h1>
                     <p>
-                        Send and receive payments very fast and your account is automatically credited or debited. 
+                        Send and receive payments very fast and your account is automatically credited or debited. Make single transfers to bank accounts from your vail wallet app.
                     </p>
-                    <p>Make single transfers to bank accounts from your vail wallet app.</p>
 
                     <div className={styles.buttons}>
                         <button>App store</button>
@@ -29,19 +31,20 @@ const Home = () => {
                     <img src={image} alt='Vail wallet image' />
                   </div>
               </Fade>
+              
         </div>
         
           
         <div className={styles.second_section}>
               <Fade right>
-              <div className={styles.heading}>
+              <div className={styles.ordinary}>
                 <h2>Vail Wallet</h2>
                 <h3>"Not just an ordinary Wallet!"</h3>      
               </div>
               </Fade>
               
               <Fade left>
-              <div className="text">
+              <div className={styles.text}>
                   <p>Unlike any other wallet, VAIL WALLET has some exclusive features to help your finances.
                 Certain things are hard, but making payments shouldn't be part of them. Vail Wallet helps you open your business to the world by giving you access to accept over 120+ currencies. With Vail Wallet, fast payment service is just at your fingertips.</p>
               </div>
@@ -115,7 +118,7 @@ const Home = () => {
           <div className={styles.first_section}>
             <Fade left>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet image" />
+                <img src={scan} alt="vail wallet image" />
             </div>
             </Fade>
             
@@ -193,7 +196,7 @@ const Home = () => {
 
             <Fade right>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet image" />
+                <img src={gateway} alt="vail wallet image" />
             </div>
             </Fade>
             
@@ -204,7 +207,7 @@ const Home = () => {
         <div className={styles.first_section}>
             <Fade left>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet image" />
+                <img src={app} alt="vail wallet image" />
             </div>
             </Fade>
             

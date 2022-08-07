@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 .section_text{
@@ -20,7 +20,12 @@
 }
 
 .section_text p{
-    margin: 10px 0;
+    margin: 15px 0;
+    line-height: 27px;
+}
+
+.text{
+    font-size: 13.8px;
 }
 
 .section_text .buttons{
@@ -62,6 +67,20 @@
     text-align: center;
     margin: 12px 0;
     letter-spacing: 2px;
+}
+
+.ordinary{
+    text-align: center;
+    margin: 12px 0;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ordinary h2{
+    color: orangered;
 }
 
 .check_icon{

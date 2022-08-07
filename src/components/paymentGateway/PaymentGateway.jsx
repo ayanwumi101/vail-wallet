@@ -2,7 +2,9 @@ import React from 'react'
 import styles from './styles.module.css'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
-import image from '../../images/boy.png'
+import gateway from '../../images/gateway.png'
+import app from '../../images/mobile-app.png'
+import logo from '../../images/logo2.png'
 import { Link } from 'react-router-dom'
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
 
@@ -26,16 +28,16 @@ const PaymentGateway = () => {
 
             <Fade right>
                 <div className={styles.section_image}>
-                    <img src={image} alt="vail wallet" />
+                    <img src={gateway} alt="vail wallet" />
                 </div>
             </Fade>
         </div>
         
-          <Zoom>
+        <Zoom>
           <div className={styles.testimony}>
               <h2>Over $1 million payments processed daily</h2>
           </div>
-          </Zoom>
+        </Zoom>
 
           
         <div className={styles.first_section}>
@@ -68,7 +70,7 @@ const PaymentGateway = () => {
 
             <Fade right>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet logo" />
+                <img src={gateway} alt="vail wallet logo" />
             </div>
             </Fade>
         </div>
@@ -77,7 +79,7 @@ const PaymentGateway = () => {
             <Zoom>
             <div className={styles.reviews_container}>
                 <div className={styles.logo}>
-                    <img src={image} alt="vail wallet logo" />
+                    <img src={logo} alt="vail wallet logo" />
                 </div>
 
                 <div className={styles.comment}>
@@ -86,7 +88,7 @@ const PaymentGateway = () => {
                 
                 <div className={styles.user_details}>
                     <div className={styles.logo}>
-                        <img src={image} alt="vail wallet logo" />
+                        <img src={logo} alt="vail wallet logo" />
                     </div>
 
                     <div className="other_details">
@@ -112,7 +114,7 @@ const PaymentGateway = () => {
         <div className={styles.first_section}>
             <Fade left>
             <div className={styles.section_image}>
-                <img src={image} alt="vail wallet" />
+                <img src={app} alt="vail wallet" />
             </div>
             </Fade>
             

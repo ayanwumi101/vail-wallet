@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import image from '../../images/boy.png'
+import contact from '../../images/contact.png'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 <p>We are available to receive your message and get back to you as soon as possible.</p>
                 </Fade>
                 <Zoom>
-                    <img src={image} alt="Contact us image" className={styles.contact_img} />
+                    <img src={contact} alt="Contact us image" className={styles.contact_img} />
                 </Zoom>
             </div>
         </div>
